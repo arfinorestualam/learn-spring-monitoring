@@ -10,4 +10,7 @@ public class LearnSpringMonitoringApplication {
         SpringApplication.run(LearnSpringMonitoringApplication.class, args);
     }
 
+    //run this app, open localhost:8080 with endpoint /actuator to see what actuator looks like
+    //but the default of actuator only show health, for safety if you want to show others, you can type explicitly
+
 }
